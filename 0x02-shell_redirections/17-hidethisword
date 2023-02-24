@@ -1,2 +1,2 @@
-#!/bash/bin
-grep -v "bin" /etc/passwd
+#!/bin/bash
+grep ^[[:alpha:]] /etc/ssh/sshd_config
